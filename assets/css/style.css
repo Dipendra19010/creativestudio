@@ -1799,6 +1799,7 @@ body.js-page-in-anim-active.js-page-out .pointer {
 
 .js-page-in .fixed-header {
 	opacity: 1;
+	
 }
 
 
@@ -1813,7 +1814,7 @@ body.js-page-in-anim-active.js-page-out .pointer {
 	top:  20px;
 	z-index: 10;
 	pointer-events: none;
-	mix-blend-mode: normal;
+	mix-blend-mode: difference;
 	isolation: isolate;}
 
 .color-mix-blend-normal.header-logo {
@@ -1833,7 +1834,7 @@ body.js-page-in-anim-active.js-page-out .pointer {
 
 .header-logo__img {
 	width: auto;
-	height: 130px;
+	height: 120px;
 	vertical-align: top;
 	-webkit-transform: translateY(110%);
 	        transform: translateY(110%);
